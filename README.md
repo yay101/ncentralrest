@@ -18,3 +18,5 @@ Set the header X-Api-Key to whatever you used for your ncentral_request_apikey.
 - GET /customerlist
 - GET /customerlistchildren/124
 - GET /devicedetail/127471274
+Powershell Example
+- invoke-restmethod -uri http://localhost:8003/customerlist -headers @{"X-Api-Key"="examplekey"}
