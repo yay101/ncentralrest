@@ -11,7 +11,7 @@ ncentral_request_apikey=examplekey
 ncentral_apikey=examplejwt
 ncentral_port=8003
 ```
-Run using Deno OR compile using Deno and run. You will need the options ``--allow-net --allow-env --allow-read`` if you are using an .env file.
+Run using Deno OR (recommended) compile using Deno and run. You will need the options ``--allow-net --allow-env --allow-read`` if you are using an .env file.
 
 ## Making Requests
 Set the header X-Api-Key to whatever you used for your ncentral_request_apikey.
