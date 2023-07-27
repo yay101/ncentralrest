@@ -6,8 +6,10 @@ This is finished as far as requirements for my day job go and as such fixes and 
 ## Usage
 Create a .env file with the following entries:
 ```
+ncentral_url=https://yourinstancehere/dms2/services2/ServerEI2
 ncentral_request_apikey=examplekey
 ncentral_apikey=examplejwt
+ncentral_port=8003
 ```
 Run using Deno OR compile using Deno and run. You will need the options ``--allow-net --allow-env --allow-read`` if you are using an .env file.
 
