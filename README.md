@@ -1,6 +1,8 @@
 # Work In Progress
 This is under current development. I do not have an environment where i can work on the write based methods and as such this is read only. I am happy to help anyone that can provide request body examples for anything not implemented.
 
+This is finished as far as requirements for my day job go and as such fixes and changes will be made when possible.
+
 ## Usage
 Create a .env file with the following entries:
 ```
